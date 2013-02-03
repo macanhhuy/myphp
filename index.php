@@ -102,6 +102,11 @@
 						<span class="input-xlarge uneditable-input">Some value here</span>
 					</div>
 					<div class="span8">
+						<ul class="breadcrumb">
+							<li><a href="#">Home</a> <span class="divider">/</span></li>
+							<li><a href="#">Library</a> <span class="divider">/</span></li>
+							<li class="active">Data</li>
+						</ul>
 						<blockquote class="pull-right">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 								Integer posuere erat a ante.</p>
@@ -181,7 +186,7 @@
 						<div class="btn-toolbar" style="margin: 0;">
 							<div class="btn-group">
 								<button class="btn btn-primary">Prev</button>
-								
+
 							</div>
 							<div class="btn-group">
 								<button class="btn btn-info">1</button>
@@ -191,6 +196,36 @@
 							<div class="btn-group">
 								<button class="btn btn-primary">Next</button>
 							</div>
+						</div>
+						<div class="tabbable tabs-left">
+							<ul class="nav nav-tabs">
+								<li class=""><a href="#lA" data-toggle="tab">Section 1</a></li>
+								<li class=""><a href="#lB" data-toggle="tab">Section 2</a></li>
+								<li class="active"><a href="#lC" data-toggle="tab">Section 3</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane" id="lA">
+									<p>I'm in Section A.</p>
+								</div>
+								<div class="tab-pane" id="lB">
+									<p>Howdy, I'm in Section B.</p>
+								</div>
+								<div class="tab-pane active" id="lC">
+									<p>What up girl, this is Section C.</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="pagination">
+							<ul>
+								<li><a href="#">Prev</a></li>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">Next</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
